@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
         else
         {
-            tv1.setText(" ");
+            tv1.setText("");
             iv1.setVisibility(View.INVISIBLE);
         }
 
