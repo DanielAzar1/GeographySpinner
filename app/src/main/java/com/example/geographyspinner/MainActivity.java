@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     String data;
     String[] countryList = {"Choose country:", "Israel", "Afghanistan", "Japan", "Kazakhstan", "Iran", "China", "Italy"};
     String[] capitalList = {"Jerusalem", "Kabul", "Tokyo", "Astana", "Tehran", "Beijing", "Rome"};
-    String[] flagsList = {"israel.png", "afgan.png", "japan.png", "kaz.png", "iran.png", "china.png", "italy.png"};
+    String[] popList = {"9.7M", "42.2M", "124.5M", "19.9M", "89.1M", "1.4B", "58.7M"};
     int[] images = {R.drawable.israel, R.drawable.afgan, R.drawable.japan, R.drawable.kaz, R.drawable.iran, R.drawable.china, R.drawable.italy};
 
     @Override
@@ -47,9 +47,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         if (position!=0)
         {
             iv1.setVisibility(View.VISIBLE);
-            data = "Country:"+countryList[position]+"\nCapital city:"+capitalList[position - 1] ;
+            data = "Country:"+countryList[position]+"\nCapital city:"+capitalList[position - 1]+"Population:"+popList[position - 1] ;
             tv1.setText(data);
-
             iv1.setImageResource(images[position - 1]);
         }
         else
