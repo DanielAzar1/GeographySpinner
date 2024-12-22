@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="israel" type="id" />
+    <item name="afgan" type="id" />
+    <item name="japan" type="id" />
+    <item name="kaz" type="id" />
+    <item name="iran" type="id" />
+    <item name="china" type="id" />
+    <item name="italy" type="id" />
+    <item name="id" type="id" />
+</resources>
